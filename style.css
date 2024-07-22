@@ -1,0 +1,197 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ede8f5;
+}
+
+header {
+    background-color: #3d52a0;
+    color: #adbbda;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    background-color: #ede8f5;
+    text-align: center;
+    padding:40px 20px;
+}
+
+.intro img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.intro h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3d52a0;
+    font-size: 3.5em;
+    margin: 10px 0;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #8697c4;
+}
+
+.education-section {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #adbbda;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.education-section h1 {
+    font-size: 2.0em;
+    text-align: center;
+    color: #3d52a0;
+    font-family: cursive;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #3d5280;
+    padding: 8px;
+    text-align: center;
+}
+
+.projects-section {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #adbbda;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.projects-section h1 {
+    font-size: 2.0em;
+    text-align: center;
+    color: #3d52a0;
+    font-family: cursive;
+}
+
+.skills-section {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #adbbda;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.skills-section h1 {
+    font-size: 2.0em;
+    text-align: center;
+    color: #3d52a0;
+    font-family: cursive;
+}
+
+.experience-section {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #adbbda;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.experience-section h1 {
+    font-size: 2.0em;
+    text-align: center;
+    color: #3d52a0;
+    font-family: cursive;
+}
+
+footer {
+    background-color: #3d52a0;
+    color: #fff;
+    padding: 20px 0;
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content h3 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.footer-content a {
+    color: #adbbda;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
